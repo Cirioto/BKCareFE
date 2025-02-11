@@ -10,14 +10,16 @@
   box-sizing: border-box;
 }
 
-html {
+/* html {
   height: 100%;
-}
+} */
 
 body {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+  overflow-y: auto;
+}
+/* Ẩn scrollbar trên Chrome, Edge, Safari */
+body::-webkit-scrollbar {
+  display: none;
 }
 
 /* Header */
@@ -34,10 +36,23 @@ header {
   padding: 0 10%;
 }
 
+.side-menu button {
+  border: none;
+  background-color: transparent;
+  margin-right: 1rem;
+}
+
+.side-menu button img {
+  transition: opacity;
+}
+.side-menu button img:hover {
+  opacity: 0.8; /* Làm mờ ảnh khi trỏ chuột vào */
+  cursor: pointer;
+}
+
 .header-logo {
   flex: 1;
 }
-
 .header-logo img {
   width: 100%;
 }

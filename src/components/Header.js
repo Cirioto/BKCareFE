@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
+import SideMenu from "./SideMenu/SideMenu";
 
 function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false); //Trạng thái đóng mở side menu
+
   return (
     <header>
       <div className="header-container">
+        <div className="side-menu">
+          <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
+            <img src="/img/side_menu.webp" />
+          </button>
+        </div>
+
         <div className="header-logo">
           <a href="#">
             <img src="/img/Logo.webp" />
@@ -33,6 +42,8 @@ function Header() {
           </div>
         </div>
       </div>
+
+      <SideMenu isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
     </header>
   );
 }
