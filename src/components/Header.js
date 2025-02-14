@@ -43,6 +43,7 @@ function Header() {
         </div>
       </div>
       <SideMenu isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
+      console.log("Demo")
     </header>
   );
 }
