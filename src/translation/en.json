@@ -1,0 +1,63 @@
+{
+  "homeheader": {
+    "menu.all": "All",
+    "menu.at-home": "At Home",
+    "menu.at-clinic": "At Clinic",
+    "menu.healthy-living": "Healthy Living",
+    "search.placeholder": "Search",
+    "action.partner": "Partner",
+    "action.contact": "Contact"
+  },
+
+  "introduction": {
+    "title1": "WHERE HEALTH BEGINS",
+    "title2": "LET'S JOIN HANDS TO PROTECT TO ALWAYS HAVE GREAT HEALTH",
+    "placeholder": "Ask questions to Top Hospital AI Assistant"
+  },
+
+  "specialty": {
+    "name": "Specialty",
+    "musculoskeletal": "Musculoskeletal",
+    "neurology": "Neurology",
+    "digestive": "Digestive System",
+    "cardiology": "Cardiology",
+    "ent": "Ear, Nose & Throat",
+    "spine": "Spine",
+    "traditional_medicine": "Traditional Medicine",
+    "acupuncture": "Acupuncture",
+    "obstetrics_gynecology": "Obstetrics & Gynecology"
+  },
+
+  "hospital": {
+    "name": "Medical Facility",
+    "vietduc": "Viet Duc Friendship Hospital",
+    "choray": "Cho Ray Hospital",
+    "doctorcheck": "Doctor Check - Screening for a Longer Life",
+    "fv": "FV Hospital",
+    "anviet": "An Viet General Hospital",
+    "anphuoc": "An Phuoc Internal Medicine Clinic"
+  },
+
+  "service": {
+    "title": "Comprehensive service",
+    "specialist": "Specialist Consultation",
+    "remote": "Remote Consultation",
+    "general": "General Checkup",
+    "lab": "Medical Testing",
+    "mental": "Mental Health",
+    "dental": "Dental Checkup",
+    "surgery": "Surgery Package",
+    "diabetes": "Diabetes Wellness",
+    "healthtest": "Health Test",
+    "nearby": "Healthcare Near You"
+  },
+
+  "menu": {
+    "home": "Home",
+    "handbook": "Handbook",
+    "partnership": "Partnership",
+    "business_health": "Business Health",
+    "clinic_digital": "Clinic Digital Transformation",
+    "recruitment": "Recruitment"
+  }
+}

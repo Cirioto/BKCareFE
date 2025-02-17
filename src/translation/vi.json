@@ -1,0 +1,63 @@
+{
+  "homeheader": {
+    "menu.all": "Tất cả",
+    "menu.at-home": "Tại nhà",
+    "menu.at-clinic": "Tại viện",
+    "menu.healthy-living": "Sống khỏe",
+    "search.placeholder": "Tìm kiếm",
+    "action.partner": "Hợp tác",
+    "action.contact": "Liên hệ"
+  },
+
+  "introduction": {
+    "title1": "NƠI KHỞI NGUỒN SỨC KHỎE",
+    "title2": "HÃY CHUNG TAY BẢO VỆ ĐỂ LUÔN CÓ SỨC KHỎE DÂNG TRÀO",
+    "placeholder": "Đặt câu hỏi với Trợ lý AI Bệnh viện top đầu"
+  },
+
+  "specialty": {
+    "name": "Chuyên khoa",
+    "musculoskeletal": "Cơ Xương Khớp",
+    "neurology": "Thần Kinh",
+    "digestive": "Tiêu Hóa",
+    "cardiology": "Tim Mạch",
+    "ent": "Tai Mũi Họng",
+    "spine": "Cột Sống",
+    "traditional_medicine": "Y Học Cổ Truyền",
+    "acupuncture": "Châm Cứu",
+    "obstetrics_gynecology": "Sản Phụ Khoa"
+  },
+
+  "hospital": {
+    "name": "Cơ Sở Y Tế",
+    "vietduc": "Bệnh viện Hữu nghị Việt Đức",
+    "choray": "Bệnh viện Chợ Rẫy",
+    "doctorcheck": "Doctor Check - Tầm Soát Bệnh Để Sống Thọ Hơn",
+    "fv": "Bệnh viện FV",
+    "anviet": "Bệnh viện Đa khoa An Việt",
+    "anphuoc": "Phòng khám Chuyên khoa Nội An Phước"
+  },
+
+  "service": {
+    "title": "Dịch vụ toàn diện",
+    "specialist": "Khám Chuyên Khoa",
+    "remote": "Khám Từ Xa",
+    "general": "Khám Tổng Quát",
+    "lab": "Xét Nghiệm Y Học",
+    "mental": "Sức khỏe tinh thần",
+    "dental": "Khám Nha Khoa",
+    "surgery": "Gói Phẫu Thuật",
+    "diabetes": "Sống Khỏe Tiểu Đường",
+    "healthtest": "Bài Test Sức Khỏe",
+    "nearby": "Y Tế Gần Bạn"
+  },
+
+  "menu": {
+    "home": "Trang chủ",
+    "handbook": "Cẩm nang",
+    "partnership": "Liên hệ hợp tác",
+    "business_health": "Sức khỏe doanh nghiệp",
+    "clinic_digital": "Chuyển đổi số Phòng Khám",
+    "recruitment": "Tuyển dụng"
+  }
+}

@@ -1,14 +1,16 @@
 import React from "react";
 import "./SideMenu.css";
 
+import { FormattedMessage } from "react-intl";
+
 function SideMenu({ isOpen, onClose }) {
   const options = [
-    { name: "Trang chủ", url: "" },
-    { name: "Cẩm nang", url: "" },
-    { name: "Liên hệ hợp tác", url: "" },
-    { name: "Sức khỏe doanh nghiệp", url: "" },
-    { name: "Chuyển đổi số Phòng Khám", url: "" },
-    { name: "Tuyển dụng", url: "" },
+    { name: <FormattedMessage id="menu.home" />, url: "" },
+    { name: <FormattedMessage id="menu.handbook" />, url: "" },
+    { name: <FormattedMessage id="menu.partnership" />, url: "" },
+    { name: <FormattedMessage id="menu.business_health" />, url: "" },
+    { name: <FormattedMessage id="menu.clinic_digital" />, url: "" },
+    { name: <FormattedMessage id="menu.recruitment" />, url: "" }
   ];
 
   if (!isOpen) return null;

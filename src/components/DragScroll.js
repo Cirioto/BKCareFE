@@ -1,6 +1,8 @@
 import React, { useRef, useState, useEffect } from "react";
 import ArrowButton from "./ArrowButton";
 
+import "./DragScroll.scss";
+
 function DragScroll({ children }) {
   const containerRef = useRef(null); // Tham chiếu đến container
   const [isDragging, setIsDragging] = useState(false); // Theo dõi trạng thái kéo

@@ -2,21 +2,27 @@ import React, { useState } from "react";
 import DragScroll from "./DragScroll";
 import ModalBK from "./Modal/ModalBK";
 
+import { FormattedMessage } from "react-intl";
+
+import "./SpecialtySection.scss"
+
 function Section({ title, items }) {
   const [selectedService, setSelectedService] = useState(null);
 
   return (
     <div className="services-overview">
-      <h1>{title}</h1>
+      <h1>
+        <FormattedMessage id={title} />
+      </h1>
       <DragScroll>
         <div className="specialty-links-container">
           {items.map((item, index) => (
             <div className="specialty-container" key={index}>
               <button onClick={() => setSelectedService(item)}>
                 <div>
-                  <img src={item.img} alt={item.text} />
+                  <img src={item.img} alt="" />
                 </div>
-                <span>{item.text}</span>
+                <span><FormattedMessage id={item.id} /></span>
               </button>
             </div>
           ))}
